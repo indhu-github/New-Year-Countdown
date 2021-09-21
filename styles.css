@@ -36,6 +36,16 @@ body * {
   z-index: 1;
 }
 
+.year {
+  font-size: 200px;
+  z-index: 0;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 h1 {
   font-size: 60px;
   margin: -80px 0 40px;

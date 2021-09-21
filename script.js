@@ -26,6 +26,7 @@ function updateCountdown() {
   seconds.innerHTML = s < 10 ? "0" + s : s;
 }
 
+//To remove the spinner and display the countdown after 1sec
 setTimeout(() => {
   loading.remove();
   countdown.style.display = "flex";
